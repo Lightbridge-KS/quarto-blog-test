@@ -1,10 +1,38 @@
 [
   {
+    "objectID": "posts/first-testing/index.html",
+    "href": "posts/first-testing/index.html",
+    "title": "Testing Things",
+    "section": "",
+    "text": "Some text, bold, italics, code\nprint(\"hello word\")"
+  },
+  {
+    "objectID": "posts/first-testing/index.html#math",
+    "href": "posts/first-testing/index.html#math",
+    "title": "Testing Things",
+    "section": "Math",
+    "text": "Math\n\\[\n\\sigma = \\sqrt{ \\frac{1}{N} \\sum_{i=1}^N (x_i -\\mu)^2}\n\\]"
+  },
+  {
+    "objectID": "posts/first-testing/index.html#footnotes",
+    "href": "posts/first-testing/index.html#footnotes",
+    "title": "Testing Things",
+    "section": "FootNotes",
+    "text": "FootNotes\nFootnotes use standard Pandoc markdown notation, for example 1. The number of the footnote will be automatically generated."
+  },
+  {
+    "objectID": "posts/first-testing/index.html#but-first-panelsets-with-r-code-chunks",
+    "href": "posts/first-testing/index.html#but-first-panelsets-with-r-code-chunks",
+    "title": "Testing Things",
+    "section": "But first, panelsets with R code chunks",
+    "text": "But first, panelsets with R code chunks\n{{< panelset class=“greetings” >}} {{< panel name=“Panel 1” >}}\nHello\n{{< /panel >}} {{< panel name=“Panel 2” >}}\nWorld\n{{< /panel >}} {{< /panelset >}}"
+  },
+  {
     "objectID": "posts/post-with-code/index.html",
     "href": "posts/post-with-code/index.html",
     "title": "Post With Code",
     "section": "",
-    "text": "1 + 1\n\n[1] 2"
+    "text": "1 + 1\n\n[1] 2\n\n\n\n\n\n\n\n\nNote\n\n\n\nNote that there are five types of callouts, including: note, tip, warning, caution, and important.\n\n\n\n\n\n\n\n\nTip With Caption\n\n\n\nThis is an example of a callout with a caption.\n\n\n\n\n\n\n\n\nExpand To Learn About Collapse\n\n\n\n\n\nThis is an example of a ‘folded’ caution callout that can be expanded by the user. You can use collapse=\"true\" to collapse it by default or collapse=\"false\" to make a collapsible callout that is expanded by default."
   },
   {
     "objectID": "posts/welcome/index.html",
@@ -16,9 +44,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "quarto-blog-test",
+    "title": "Welcome to Quarto Blog",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\nThis is a post with executable code.\n\n\n\n\n\n\nMar 28, 2022\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnews\n\n\n\n\nSome Description Here\n\n\n\n\n\n\nMar 25, 2022\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "Hello read my blog post at here"
   },
   {
     "objectID": "about.html",
@@ -26,5 +54,12 @@
     "title": "About",
     "section": "",
     "text": "About this blog"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "quarto-blog-test",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\ntest\n\n\n\n\nSome text, bold, italics, code\n\n\n\n\n\n\nMar 28, 2022\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\nThis is a post with executable code.\n\n\n\n\n\n\nMar 28, 2022\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnews\n\n\n\n\nSome Description Here\n\n\n\n\n\n\nMar 25, 2022\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
   }
 ]

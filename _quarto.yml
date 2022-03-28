@@ -4,12 +4,18 @@ project:
 website:
   title: "quarto-blog-test"
   navbar:
-    right:
+    serch: true
+    left:
+      - text: "Blog"
+        file: blog.qmd
       - about.qmd
+    right:
       - icon: github
         href: https://github.com/
       - icon: twitter
         href: https://twitter.com
+      - text: google
+        href: https://www.google.com
 format:
   html:
     theme: cosmo
